@@ -8,11 +8,34 @@
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <script src=" https://unpkg.com/react-tabs/dist/react-tabs.development.js " />
   </script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
 
-  <title>RankingPhoto</title>
+  <title>ReactSample</title>
 </head>
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="container"></div>
 </body>
 </html>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAzDcX2wGptFlPbZlkndP7U-xLJWp0J3B4",
+    authDomain: "reactsample-39317.firebaseapp.com",
+    databaseURL: "https://reactsample-39317.firebaseio.com",
+    projectId: "reactsample-39317",
+    storageBucket: "",
+    messagingSenderId: "830989738102",
+    appId: "1:830989738102:web:c5c7c9ac20e6b2c7"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>

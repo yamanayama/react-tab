@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "firebase-tools": "^6.10.0",
+    "npm": "^6.9.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-live": "^2.0.1",
     "react-scripts": "3.0.0",
+    "react-slick": "^0.24.0",
     "react-tabs": "^3.0.0"
   },
   "scripts": {
